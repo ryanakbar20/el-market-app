@@ -1,9 +1,12 @@
 .jumbotron {
   padding: 2rem 1rem;
-  background-color: aqua;
 }
 body {
+<<<<<<< HEAD
   background-image: url("");
   background-color: #a3a7aa;
+=======
+  background-color: #aaa3a3;
+>>>>>>> 22d8a8fbd3ae01893b9cdc3c45b483caaccb2947
   background-size: cover;
 }
