@@ -4,22 +4,19 @@
   font-size: 32px;
 }
 
-
-
 .nav-link {
   text-transform: uppercase;
   margin-right: 30px;
 }
-<<<<<<< HEAD
-body {
+HEAD body {
   background-color: #f1eeee;
-=======
+}
 
 /*jumbotron*/
 
-.jumbotron {
-  background-image:url("https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
->>>>>>> 5cc9a5bf1838c5caa46f28c89d373e1bf06b2981
+.junnjjjsb {
+  background-image: url("https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+
   background-size: cover;
   height: 640px;
   text-align: center;
@@ -29,7 +26,7 @@ body {
   color: white;
   margin-top: 150px;
   font-weight: 200;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
   font-size: 62px;
 }
 
@@ -37,32 +34,26 @@ body {
   font-weight: 500;
 }
 
-
-
-
 /*UTILITY*/
 .tombol {
   text-transform: uppercase;
   border: 40px;
 }
 
-
-
-
 /* DESKTOP VERSION */
 @media (min-width: 992px) {
-   .nav-link {
-     text-transform: uppercase;
-     margin-right: 30px;
-   }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
 
-    .nav-link:hover::after {
-      content: '';
-      display: block;
-      border-bottom:3px solid #0B63DC;
-      width: 50%;
-      margin: auto;
-      padding-bottom: 5px;
-      margin-bottom: -8px;
-    }
- }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
