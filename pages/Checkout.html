@@ -24,6 +24,13 @@
           <span class="focus-input100"></span>
         </div>
         <div class="wrap-input100">
+          <span class="label-input100">Nama</span>
+          <label>
+          <input class="input100 nama" type="text" placeholder="Masukkan nama Anda">
+          </label>
+          <span class="focus-input100"></span>
+        </div>
+        <div class="wrap-input100">
           <span class="label-input100">Nomor WhatsApp</span>
           <label>
           <input class="input100 nowhatsapp" type="text" placeholder="08xxxxxxxxxx">
@@ -65,6 +72,11 @@ function WhatsApp() {
     ph = $('#whatsapp .nama').attr('placeholder');
     alert('Silahkan tulis ' + ph);
     $('#whatsapp .nama').focus();
+    return false;
+  } else if ($('#whatsapp .namabarang').val() == '') { // Cek Namabarang
+    ph = $('#whatsapp .namabarang').attr('placeholder');
+    alert('Silahkan tulis ' + ph);
+    $('#whatsapp .namabarang').focus();
     return false;
   } else if ($('#whatsapp .nowhatsapp').val() == '') { // Cek Whatsapp
     ph = $('#whatsapp .nowhatsapp').attr('placeholder');
